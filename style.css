@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-start; 
+}
+#p_Tag{
+    width:  200px;
+    background-color: greenyellow;
+    border: 4px solid black;
+    padding: 20px;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+    height: 200px;
+    overflow:auto;
+}
+#p_Tag2{
+    width:  200px;
+    background-color: orange;
+    border: 4px solid black;
+    padding: 20px;
+    box-sizing: content-box;
+    height: 200px;
+    overflow:hidden;
+
+}
